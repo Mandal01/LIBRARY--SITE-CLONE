@@ -1,0 +1,193 @@
+body{
+  background-color:rgb(235, 243, 233);
+  font-weight:350;
+  font-family:roboto,sans-serif;
+}
+.close {
+  box-sizing: border-box;
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color:Black;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+#signup {
+  position: relative;
+  margin: 5% auto;
+  width: 382px;
+  height: 526px;
+  background:white;
+  border-radius:4px;
+  box-shadow: -5px 4px 20px 0px rgb(158 194 194 / 80%);;
+}
+.left{
+  display:flex ;
+  flex-direction: column;
+  align-items: center;
+
+}
+.login{
+  color: #1b9b46;
+  margin-top: 29px;
+  margin-right: 33px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.reg{
+  color: rgb(18, 120, 74);
+  height:33px;
+  width:233px;
+  background-color:transparent;
+  border-radius:20px;
+  cursor:pointer;
+  border-color: rgb(18, 120, 74) ;
+  font-size: 1rem;
+  letter-spacing: 1.1px;;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.reg:hover{
+  transition: 0.5s;
+  background-image:  linear-gradient(to right,#164e25f7, #4ca17c);
+  color:rgb(255, 255, 255);
+}
+input[type="text"],
+input[type="password"]
+{
+   margin-top: 30px;
+   display:block;
+   box-sizing:border-box;
+   border:none;
+   padding:0.3px;
+   width:220px;
+   height:29px;
+   border-bottom:1.9px solid #4d514e;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 15px;
+   transition: 0.5s ease-out;
+   outline:none;
+    
+}
+input[type="text"]:focus,
+input[type="password"]:focus 
+{
+border-bottom: 3px solid #16a085;
+color: #16a085;
+transition: 0.2s ease;
+}
+.account{
+  font-size: 13px;
+  margin-top: 20%;
+  font-weight:bolder;
+  color: #32508E;
+  margin-left: 4%;
+}
+.account1{
+  text-decoration: none;
+  color: #1b9b46;
+}
+
+.a1{
+  margin-top: 8px;;
+  height:30%;
+  width:18%;
+  margin-left: 10px;
+  transition: transform .5s;
+  cursor: pointer;
+}
+.a1:hover{
+  transform: scale(1.2);
+}
+.b2{
+  height:30%;
+  width:18%;
+  margin-left: 25px;
+  transition: transform .5s;
+  cursor: pointer;
+}
+.b2:hover{
+  transform: scale(1.2);
+}
+.c1{
+  height:30%;
+  width:18%;
+  margin-left: 25px;
+  transition: transform .5s;
+  cursor: pointer;
+}
+.c1:hover{
+  transform: scale(1.2);
+}
+.register{
+  box-sizing: border-box;
+  text-align: center;
+  height: 78%;
+  width: 74%;
+  margin-left: 37px;
+  background-color: transparent;
+  padding: 11px 30px;
+}
+.text0001{
+  font-weight: 550;
+  font-size: 14px;
+  letter-spacing: 0.6;
+  margin-top: 30px;
+}
+.text0002{
+  margin-top: 20px;
+  font-weight: 550;
+  font-size: 14px;
+  letter-spacing: 0.6;
+ 
+}
+.a1{
+  height:22%;
+	transition: transform .5s;
+	cursor: pointer;
+}
+.a1:hover{
+	transform: scale(1.2);
+}
+.b2{
+	height:22%;
+	transition: transform .5s;
+	cursor: pointer;
+}
+.b2:hover{
+	transform: scale(1.2);
+}
+.c1{
+	height:21%;
+	transition: transform .5s;
+	cursor: pointer;
+}
+.c1:hover{
+	transform: scale(1.1);
+}
+.link01{
+  font-size:14px ;
+  font-weight: 700;
+  letter-spacing: 0.6;
+  text-decoration: none;
+  color: #16a085;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}

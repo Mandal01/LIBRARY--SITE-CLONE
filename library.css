@@ -1,0 +1,116 @@
+body{
+    margin: 0%;
+    background:url(back.jpg);
+}
+.home{
+    box-sizing: content-box;
+    width: 50%;
+
+}
+.img{
+    height: 700px;
+    width: 50%;
+    border-radius: 3px;
+    border-right-color: #f0f8ff;
+    box-shadow: 4px 5px 14px 0 #97cfe6;
+}
+.img1{
+    width: 8%;
+    height: 70px;
+    margin-left: 87%;
+    border-radius: 10px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+.img1:hover{
+    transition: 0.7s;
+    box-shadow: -4px 3px 20px 0 #207994bd;
+}
+.search{
+   border-radius: 20px;
+   outline: none;
+   text-decoration: none;
+   border: transparent;
+   font-size: 14px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   letter-spacing: 1px;
+   box-shadow: -2px 3px 13px 0px #1f303880;
+   margin-top: -650px;
+   margin-left: 25vw;
+   padding-right: 35vw;
+   padding-left: 27px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.login{
+    height:35px;
+    width: 2.3vw;
+    cursor: pointer;
+    border-radius: 100px;
+    margin-bottom:610px;
+    margin-left: 45.5vw;
+}
+.login:hover{
+    transition: 0.5s;
+    box-shadow:  0 0 20px #7aacec;
+}
+.text{
+    font-family: monospace;
+    margin-top: -35%;
+}
+.txt{
+    letter-spacing: -10px;
+    margin-left: 27%;
+    font-size: 15vw;
+    font-weight: 600;
+    color: #5cd4d4c2;
+}
+.txta{
+    font-size: 15vw;
+    font-weight: 600;
+    color: #207994bd;
+}
+.txtb{
+    margin-left: 51%;
+    font-size: 2.2vw;
+    letter-spacing: -1px;
+    font-weight: 900;
+    color: #5cd4d4c2;
+}
+.txtc{
+    margin-left: 51%;
+    font-size: 1.2vw;
+    letter-spacing:2px;
+    font-weight: 600;
+    color: #12141488;
+    display: block;
+}
+.box{
+    display:flex;
+    content: center;
+    width: 9%;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #1d7691ee;
+    margin-top:-70px;
+    margin-left: 86.5%;
+    cursor: pointer;
+}
+.box:hover{
+    transition: 0.7s;
+    box-shadow: -4px 3px 20px 0 #207994bd;
+}
+.nxt{
+    margin-top: -55px;
+    height: 5vh;
+    width: 3vw;
+    margin-left: 96%;
+    border-radius: 50%;
+}
+.nxt:hover{
+    cursor: pointer;
+    transition: 0.7s;
+    box-shadow: -4px 3px 20px 0 #207994bd;
+
+}
